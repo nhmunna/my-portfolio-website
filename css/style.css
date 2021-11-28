@@ -46,6 +46,12 @@ body{
     padding: 12px 0 0 0px;
 }
 
+/* .photo-inner li img{
+    width: 214px;
+    height: 214px;
+    padding: 12px 0 0 0px;
+} */
+
 .about h1{
     font-weight: 900;
     color: white;
