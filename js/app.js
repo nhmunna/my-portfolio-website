@@ -27,29 +27,29 @@ jQuery(document).ready(function () {
     //     $('#pageContent').load('Nurul_Huda_Munna_Web_Developer_Resume_5.html');
     // });
     // Rating bars
-    $(".skills li .rating").each(function (index, e) {
+    // $(".skills li .rating").each(function (index, e) {
 
         // Vars
-        var
-            $ratNum = 7,
-            $rat = $(e).attr("data-rat"),
-            $point = "<span></span>";
+        // var
+        //     $ratNum = 7,
+        //     $rat = $(e).attr("data-rat"),
+        //     $point = "<span></span>";
 
         // Append points
-        while ($ratNum > 0) {
-            $(e).append($point);
-            $ratNum--;
-        }
+    //     while ($ratNum > 0) {
+    //         $(e).append($point);
+    //         $ratNum--;
+    //     }
 
-        $(e).find("span").each(function (index, e) {
-            if (index >= $rat) return false;
-            // Append Disabled Rats
-            $(e).animate({
-                opacity: 1
-            });
-        });
+    //     $(e).find("span").each(function (index, e) {
+    //         if (index >= $rat) return false;
+    //         // Append Disabled Rats
+    //         $(e).animate({
+    //             opacity: 1
+    //         });
+    //     });
 
-    });
+    // });
 
     /* ---------------------------------------------------------------------- */
     /*	About
