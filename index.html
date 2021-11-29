@@ -30,89 +30,64 @@
 <body>
     <section id="container">
         <header>
-            <div id="logo">
-                <h2>NH Munna</h2>
-                <h4>WEB DEVELOPER</h4>
-            </div>
-            <div class="social-icons-container">
-                <span class="socials-text">
-                    <button class="pluse-button">
-                        <i class="fas fa-share" aria-hidden="true"></i>
-                    </button>
-                </span>
-                <ul class="socialIcons">
-                    <li><a href=""><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
-                    <li><a href=""><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
-                    <li><a href=""><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
-                    <li><a href=""><i class="fab fa-whatsapp" aria-hidden="true"></i></a></li>
-                </ul>
+            <div class="row justify-content-between">
+                <div id="logo" class="col">
+                    <h2>NH Munna</h2>
+                    <h4>WEB DEVELOPER</h4>
+                </div>
+                <div class="col">
+                    <ul class="socialIcons">
+                        <a href=""><i class="fab fa-facebook" aria-hidden="true"></i></a>
+                        <a href=""><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                        <a href=""><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+                        <a href=""><i class="fab fa-github" aria-hidden="true"></i></a>
+                    </ul>
+                </div>
             </div>
         </header>
         <section id="content">
-            <div id="profile">
-                <div class="about">
-                    <div class="photo-inner">
-                        <ul>
-                            <li><img src="img/mypic.jpg" alt=""></li>
-                        </ul>
+            <div class="row">
+                <div class="col col-md-12 col-sm-6">
+                    <div id="profile">
+                        <div class="about col">
+                            <div class="photo-inner">
+                                <ul>
+                                    <li><img src="img/mypic.jpg" alt=""></li>
+                                </ul>
+                            </div>
+                            <h1>NURUL HUDA MUNNA</h1>
+                            <h3>WEB DEVELOPER</h3>
+                            <br>
+                            <p>
+                                Having a passion for web development, therefore, I have been working with JavaScript,
+                                HTML,
+                                CSS,
+                                React, Bootstrap, Material UI, MongoDB, Node.js, Firebase.
+                            </p>
+                        </div>
+                        <div class="col">
+                            <ul class="personal-info">
+                                <li><label for="">Name</label><span> Md. Nurul Huda Munna Bhuiyan</span></li>
+                                <li><label for="">Birthday</label><span> 10 June, 1994</span></li>
+                                <li><label for="">Address</label><span>11 No Ward, Middle Charipur, Feni,
+                                        Bangladesh</span>
+                                </li>
+                                <li><label for="">Email</label><span class="word-wrap">
+                                        mdnurulhudamunna@gmail.com</span>
+                                </li>
+                                <li><label for="">Phone</label><span>+8801827267116</span></li>
+                            </ul>
+                        </div>
                     </div>
-                    <h1>NURUL HUDA MUNNA</h1>
-                    <h3>WEB DEVELOPER</h3>
-                    <br>
-                    <p>
-                        Having a passion for web development, therefore, I have been working with JavaScript, HTML,
-                        CSS,
-                        React, Bootstrap, Material UI, MongoDB, Node.js, Firebase.
-                    </p>
                 </div>
-                <ul class="personal-info">
-                    <li><label for="">Name</label><span> Md. Nurul Huda Munna Bhuiyan</span></li>
-                    <li><label for="">Birthday</label><span> 10 June, 1994</span></li>
-                    <li><label for="">Address</label><span>11 No Ward, Middle Charipur, Feni, Bangladesh</span></li>
-                    <li><label for="">Email</label><span class="word-wrap"> mdnurulhudamunna@gmail.com</span></li>
-                    <li><label for="">Phone</label><span>+8801827267116</span></li>
-                </ul>
             </div>
             <nav class="menu">
-                <!-- <nav class="navbar navbar-expand-lg navbar-light">
-                <div class="container-fluid menu">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="tabs navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="tmenu">
-                                <a href="#profile" class="tab-profile active"><i><i class="fa fa-user"
-                                            aria-hidden="true"></i></i>PROFILE</a>
-                            </li>
-                            <li class="tmenu">
-                                <a href="#resume"><i><i class="fas fa-file" aria-hidden="true"></i></i>RESUME</a>
-                            </li>
-                            <li class="tmenu">
-                                <a href="#projects"><i><i class="fas fa-portrait"
-                                            aria-hidden="true"></i></i>PROJECTS</a>
-                            </li>
-                            <li class="tmenu">
-                                <a href="#contact"><i><i class="fab fa-telegram-plane"
-                                            aria-hidden="true"></i></i>CONTACT</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav> -->
                 <ul class="tabs">
 
                     <li class="tmenu">
                         <a href="#profile" class="tab-profile active"><i><i class="fa fa-user"
                                     aria-hidden="true"></i></i>PROFILE</a>
                     </li>
-
-                    <!-- <li class="tmenu">
-                        <a target="_blank" href="Nurul_Huda_Munna_Web_Developer_Resume_5.html"><i><i class="fas fa-file"
-                                    aria-hidden="true"></i></i>RESUME</a>
-                    </li> -->
                     <li class="tmenu">
                         <a href="#resume"><i><i class="fas fa-file" aria-hidden="true"></i></i>RESUME</a>
                     </li>
@@ -136,15 +111,67 @@
             </section>
 
             <section id="projects">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid labore, ea quisquam officia odio
-                    rem? Modi similique, minus, reprehenderit assumenda expedita, numquam tempora accusantium laboriosam
-                    quisquam dolorem officia deleniti repudiandae!</p>
+                <div class="row row-cols-2">
+                    <div class="col">
+                        <div class="card m-2" style="width: 18rem;">
+                            <img src="./img/car1.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Car Service</h5>
+                                <p class="card-text">This is a car service website where users can book a service.
+                                    Two types of Dashboard are implemented, normal user and admin.
+                                    Admins can add service, see all of the orders, etc. </p>
+                                <a target="_blank" href="https://niche-99a6c.web.app/" class="btn btn-warning">Live
+                                    Side</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card m-2" style="width: 18rem;">
+                            <img src="./img/torism1.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Tourism Service</h5>
+                                <p class="card-text">This is a tourism website where users can book tourism plan.
+                                    This site is fully designed with Bootstrap.
+                                    Firebase Authentication is used for login and registration.</p>
+                                <a target="_blank" href="https://tourism-64219.web.app/" class="btn btn-warning">Live
+                                    Side</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card m-2" style="width: 18rem;">
+                            <img src="./img/healthcare1.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Healthcare Service</h5>
+                                <p class="card-text">This is a healthcare website where users can book any medical plan.
+                                    Users can see the details of the doctor. React router dom used for the route.</p>
+                                <a target="_blank" href="https://health-care-fe8b3.web.app/"
+                                    class="btn btn-warning">Live Side</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
 
-            <section id="contact">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid labore, ea quisquam officia odio
-                    rem? Modi similique, minus, reprehenderit assumenda expedita, numquam tempora accusantium laboriosam
-                    quisquam dolorem officia deleniti repudiandae!</p>
+            <section class="m-5" id="contact">
+                <h3 class="main-heading"><span>Let's keep in touch</span></h3>
+                <div class="row row-cols-1 justify-content-md-center pb-2">
+                    <div class="col">
+                        <form id="contact-form">
+                            <label for="name">Your Name</label>
+                            <input type="text" name="name" class="input name">
+
+                            <label for="email">Your Email</label>
+                            <input type="text" name="email" class="input email">
+
+                            <label for="message">Your Message</label>
+                            <textarea name="message" cols="88" rows="6" class="textarea message"></textarea>
+
+                            <input type="submit" name="submit" value="Send your message"
+                                class="button transition submit">
+                        </form>
+                    </div>
+                </div>
             </section>
         </section>
         <footer>
@@ -170,6 +197,59 @@
     <!-- carousefed -->
     <script
         src="https://cdnjs.cloudflare.com/ajax/libs/jquery.caroufredsel/6.2.1/jquery.carouFredSel.packed.js"></script>
+
+    <!-- sweet alert js -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <!-- email service -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("user_YbARDRMsgJ2roEHScd4Co");
+        })();
+    </script>
+
+    <script>
+        // User ID
+        // user_YbARDRMsgJ2roEHScd4Co
+        // Access Token
+        // fe8970be9d73362435095b4c4665806e
+        function send() {
+            let name = document.querySelector(".name");
+            let email = document.querySelector(".email");
+            let message = document.querySelector(".message");
+            let submit = document.querySelector(".submit");
+
+            submit.addEventListener("click", e => {
+                e.preventDefault();
+                if (name.value && email.value && message.value) {
+                    sendEmail(name.value, email.value, message.value);
+                    success();
+                    console.log("email send")
+                }
+            })
+
+        }
+
+        send();
+
+        function sendEmail(name, email, message) {
+            emailjs.send("service_0x5v99f", "template_lzt8at9", {
+                from_name: name,
+                to_name: email,
+                message: message,
+            });
+        }
+        function success() {
+            swal({
+                title: "Good job!",
+                text: "Successfully send a message",
+                icon: "success",
+                button: "Aww yes!!",
+            });
+        }
+        // success();
+    </script>
 </body>
 
 </html>

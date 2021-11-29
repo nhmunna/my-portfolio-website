@@ -29,13 +29,13 @@ jQuery(document).ready(function () {
     // Rating bars
     // $(".skills li .rating").each(function (index, e) {
 
-        // Vars
-        // var
-        //     $ratNum = 7,
-        //     $rat = $(e).attr("data-rat"),
-        //     $point = "<span></span>";
+    // Vars
+    // var
+    //     $ratNum = 7,
+    //     $rat = $(e).attr("data-rat"),
+    //     $point = "<span></span>";
 
-        // Append points
+    // Append points
     //     while ($ratNum > 0) {
     //         $(e).append($point);
     //         $ratNum--;
@@ -152,30 +152,30 @@ jQuery(document).ready(function () {
     /* ---------------------------------------------------------------------- */
 
     // Needed variables
-    var $plist = $('#portfolio-list');
-    var $pfilter = $('#portfolio-filter');
+    // var $plist = $('#portfolio-list');
+    // var $pfilter = $('#portfolio-filter');
 
     // Run Isotope  
-    $plist.isotope({
-        filter: '*',
-        layoutMode: 'masonry',
-        animationOptions: {
-            duration: 750,
-            easing: 'linear'
-        }
-    });
+    // $plist.isotope({
+    //     filter: '*',
+    //     layoutMode: 'masonry',
+    //     animationOptions: {
+    //         duration: 750,
+    //         easing: 'linear'
+    //     }
+    // });
 
     // Isotope Filter 
-    $pfilter.find('a').click(function () {
-        var selector = $(this).attr('data-filter');
-        $plist.isotope({
-            filter: selector,
-            animationOptions: {
-                duration: 750,
-                easing: 'linear',
-                queue: false,
-            }
-        });
-        return false;
-    });
+    // $pfilter.find('a').click(function () {
+    //     var selector = $(this).attr('data-filter');
+    //     $plist.isotope({
+    //         filter: selector,
+    //         animationOptions: {
+    //             duration: 750,
+    //             easing: 'linear',
+    //             queue: false,
+    //         }
+    //     });
+    //     return false;
+    // });
 });
