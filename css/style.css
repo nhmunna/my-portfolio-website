@@ -176,6 +176,11 @@ ul.socialIcons{
     z-index: 100;
 }
 
+.tabs li {
+    float: left;
+    height: 116px;
+  }
+
 .tabs li > a{
     padding-top: 28px;
     width: 115px;
@@ -192,9 +197,28 @@ ul.socialIcons{
     margin-right: 35px;
 }
 
-a.tab-profile.active{
+.tabs li.active{
     background: url(../img/tab-hover.png) no-repeat;
+}
+
+.tabs li.active a{
     color: #cf455c;
+}
+
+a.tab-profile.active i{
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce{
+    0%, 20%, 50%, 80%, 100%{
+        transform: translateY(0);
+    }
+    40%{
+        transform: translateY(-0px);
+    }
+    59%{
+        transform: translateY(-10px);
+    }
 }
 
 .tabs li > a > i{
