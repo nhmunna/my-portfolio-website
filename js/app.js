@@ -138,14 +138,14 @@ jQuery(document).ready(function () {
     /*	Cats Filter
     /* ---------------------------------------------------------------------- */
 
-    var $catsfilter = $('.cats-filter');
+    // var $catsfilter = $('.cats-filter');
 
     // Copy categories to item classes
-    $catsfilter.find('a').click(function () {
-        var currentOption = $(this).attr('data-filter');
-        $(this).parent().parent().find('a').removeClass('current');
-        $(this).addClass('current');
-    });
+    // $catsfilter.find('a').click(function () {
+    //     var currentOption = $(this).attr('data-filter');
+    //     $(this).parent().parent().find('a').removeClass('current');
+    //     $(this).addClass('current');
+    // });
 
     /* ---------------------------------------------------------------------- */
     /*	Portfolio
