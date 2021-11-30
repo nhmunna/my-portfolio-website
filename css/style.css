@@ -261,11 +261,11 @@ form textarea {
 	padding-top: 8px;
 }
 
-form p {
+/* form p {
 	margin-bottom: 15px;
-}
+} */
 
-form p label {
+form label {
 	display: block;
 	color: #999;
 	margin-bottom: 8px;
